@@ -1,0 +1,91 @@
+25/02 Cuak
+
+26/02 Intro, teo atomica, union pn, transis, p log, flip flops, m turing
+27/02 Historia hardware, intro a simplez, ensamblador, bus, memoria, m direccionamiento
+      procesador segmentado, gestión periferia, int.
+28/02 Intro a los SO, funciones del SO, m virtual, paginacion, segmentacion, procesos, hilos, 
+      ipc, shm, concurrencia, intro a c, libc, intro práctica
+
+01/03 Formatos ejecutables, elf, terminologia, regiones memoria, estr proceso, codigo de carga, reloc, sneak peek,
+stack canaries, nx, aslr
+
+02/03 Intro hacking, intro ing inversa, ghidra, vulnerabilidades c, buffer overflow, intro gdb, ataques avanzados.
+
+03/03 Revision material
+
+Prácticas: 
+           simulador m turing
+
+           ejercicios ensamblador
+           ejercicios modos direccionamiento
+           ejercicio programacion simplez
+
+           demo cargador arranque
+           shell en c
+
+           carga dinámica
+
+           buffer overflow guiado
+
+           práctica final
+
+
+
+16 días 5x3 + 1
+
+S0- Elec
+S1- Hard
+S2- SO
+S3- Bin
+S4- Expl
+
+Presentación del curso, guía de contenidos y pruebas (1h)
+Teoría atómica y la unión PN (2h)
+El transistor y puertas lógicas (3h)
+Flip-Flops (1h)
+La máquina de Turing (2h)
+Ejercicio propuesto: Simulador máquina de Turing.
+
+Introducción al hardware: Historia y evolución (1h)
+Introducción a simplez: Una arquitectura didáctica (1h)
+Ejercicios: lenguaje ensamblador (1h)
+El bus, la memoria y los modos de direccionamiento (2h)
+Ejercicios: Modos de direccionamiento (1h)
+El procesador segmentado (1h)
+Gestión de la periferia (1h)
+Interrupciones (1h)
+Ejercicio propuesto: Programación para Simplez.
+
+Introducción a los sistemas operativos (1h)
+Funciones del sistema operativo (1h)
+Demostración: El cargador de arranque (1h)
+La memoria virtual, segmentación y paginación (1h)
+Procesos, hilos y modos de ejecución (1h)
+Comunicación interproceso, memoria comprartida y concurrencia (1h)
+Introducción al lenguaje C y la librería estandar (2h)
+Introducción a la práctica de sistemas operativos (1h)
+Ejercicio propuesto: Shell en C.
+
+Formatos ejecutables (1h)
+Introducción a los binarios ELF (1h)
+Terminología de ejecutables: Compilador, linker, segmento, sección (1h)
+Regiones de memoria y estructura de un proceso (1h)
+El proceso de carga de un ejecutable (1h)
+Código relocalizables (1h)
+Sneak peek: El Overflow (30 min)
+Stack canaries (30 min)
+NX (30 min)
+ASLR (30 min)
+Introducción a la práctica semanal (1 h)
+Ejercicio propuesto: Carga dinámica.
+
+Introducción al hacking de binarios (1h)
+Introducción a la ingeniería inversa (1h)
+Herramientas para ingeniería inversa: Ghidra (1h)
+Vulnerabilidades, patrones y funciones peligrosas de C (1h)
+El buffer overflow (1h)
+Introducción a GDB (1h)
+Ejercicio guiado: Programando un exploit (3h)
+Ataques avanzados: Return2libc, ROP (1h)
+Introducción a la práctica (1h)
+Despedida
