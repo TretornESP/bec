@@ -126,10 +126,6 @@ void loop() {
             printf("Executing %s %x, %x\n", iset_names[op], reg, ea );
             iset[op](reg, ea);
         }
-<<<<<<< HEAD
-=======
-        
->>>>>>> e83eefebf435d510f05cd5a08f005beec5b49191
         pc++;
 
         printf("PC:%x X:%x ACC:%x\n", pc, x, acc);
@@ -141,7 +137,6 @@ void loop() {
             }
         }
         getchar();
-
     }
 }
 
