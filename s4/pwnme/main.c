@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-  char name[128];
+  char name[160];
   printf("%p\n", name);  // Print address of buffer.
   puts("What's your name?");
   gets(name);
