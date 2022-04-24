@@ -1,0 +1,8 @@
+# syntax=docker/dockerfile:1
+FROM ubuntu:20.04
+RUN apt update && \
+    apt -y install gcc gdb iputils-ping && \
+    rm -rf /var/lib/apt/lists/*
+COPY ./files /app
+RUN gcc -no-pie -fno-stack-protector -z execstack -g /app/main.c -o /app/a.out 
+CMD /app/a.out
